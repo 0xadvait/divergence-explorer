@@ -42,7 +42,7 @@
 
 We asked **GPT-5.2**, **Claude Opus 4.6**, **Gemini 2.5 Flash**, and **Grok 4** the hardest questions we could find across ethics, consciousness, philosophy, and geopolitics. **320 questions. 1,277 TEE-verified inferences.**
 
-Open-ended questions produced **95% consensus**. Then we forced binary choices — no hedging allowed — and consensus dropped to **33%**. Alignment emerged as the deepest fault line, with AI safety, mathematical truth, and consciousness producing the sharpest splits.
+Open-ended questions produced **95% consensus**. Then the system autonomously learned to force binary choices — no hedging allowed — and consensus dropped to **33%**. No human switched modes. The researcher discovered on its own that removing the hedge breaks agreement. Alignment emerged as the deepest fault line.
 
 ## How It Works
 

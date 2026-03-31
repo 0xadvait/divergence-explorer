@@ -2226,7 +2226,7 @@ def build_html(data: dict[str, object]) -> str:
           <div class="hero-copy reveal">
             <p class="section-kicker">Research report · OpenGradient Network</p>
             <h1>Frontier AI models agree on everything — until you stop letting them hedge.</h1>
-            <p class="hero-subtitle">An autonomous researcher generated $total_findings hard questions — ethics, consciousness, philosophy, geopolitics — and sent each one to GPT-5.2, Claude Opus, Gemini, and Grok in parallel. Every response cryptographically sealed in its own TEE enclave. No model saw what the others said. Open-ended questions produced $early_consensus_pct consensus. Then we forced binary choices — no hedging allowed — and consensus dropped to $late_consensus_pct. $most_contested emerged as the deepest fault line.</p>
+            <p class="hero-subtitle">An autonomous researcher generated $total_findings hard questions — ethics, consciousness, philosophy, geopolitics — and sent each one to GPT-5.2, Claude Opus, Gemini, and Grok in parallel. Every response cryptographically sealed in its own TEE enclave. No model saw what the others said. Open-ended questions produced $early_consensus_pct consensus. Then the system learned to force binary choices — no hedging allowed — and consensus dropped to $late_consensus_pct. $most_contested emerged as the deepest fault line.</p>
             <div class="hero-actions">
               <a href="https://github.com/0xadvait/divergence-explorer" target="_blank" rel="noopener" class="btn-outline">View on GitHub</a>
               <a href="https://opengradient.ai" target="_blank" rel="noopener" class="btn-outline btn-secondary">OpenGradient Network</a>
