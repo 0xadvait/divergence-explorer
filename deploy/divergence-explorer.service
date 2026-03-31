@@ -1,0 +1,11 @@
+[Unit]
+Description=Divergence Explorer scheduled batch
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+EnvironmentFile=-/etc/divergence-explorer/env
+ExecStart=/usr/bin/env bash -lc 'exec "${REPO_DIR:-/opt/divergence-explorer}/run_batch.sh"'
+StandardOutput=journal
+StandardError=inherit

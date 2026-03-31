@@ -1,0 +1,14 @@
+[project]
+name = "divergence-explorer"
+version = "0.1.0"
+description = "Autonomous cross-model disagreement explorer — discovers where frontier AI models see reality differently, with cryptographic proof of independent thought."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "opengradient>=1.0.0",
+    "numpy>=2.0.0",
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+explore = "src.explorer:main"

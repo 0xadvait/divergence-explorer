@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Divergence Explorer every hour
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+Unit=divergence-explorer.service
+
+[Install]
+WantedBy=timers.target

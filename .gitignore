@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+results.tsv
+analysis/divergence_report.html
+*.egg-info/
+dist/
+build/
+.venv/
+*_top_tweets.json
+*_tweets*.json
+fetch_top_tweets.py
+update_thread_doc.py
+create_thread_doc.py
+results/findings.jsonl
