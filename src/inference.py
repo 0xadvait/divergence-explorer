@@ -71,7 +71,7 @@ async def init_client(private_key: str) -> og.LLM:
             "OpenGradient LLM client is missing required TEE inference methods."
         )
 
-    await asyncio.to_thread(llm.ensure_opg_approval, opg_amount=0.1)
+    await asyncio.to_thread(llm.ensure_opg_approval, min_allowance=100.0)
     return llm
 
 
